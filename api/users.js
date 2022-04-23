@@ -1,8 +1,7 @@
+const path = require("path");
+
 module.exports = (req, res) => {
   if (req.method === "GET") {
-    res.status(200).json([
-      { name: "Mahabub", age: "25" },
-      { name: "Sunny", age: "26" },
-    ]);
+    res.sendFile(path.resolve(path.join(__dirname, "../public/index.html")));
   }
 };
