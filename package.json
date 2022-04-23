@@ -1,0 +1,17 @@
+{
+  "name": "serverless-function",
+  "version": "1.0.0",
+  "description": "Serverless function deployed on vercel",
+  "main": "app.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "keywords": [
+    "serverless"
+  ],
+  "author": "Mahabub Hasan Sany",
+  "license": "ISC",
+  "devDependencies": {
+    "@vercel/node": "^1.14.1"
+  }
+}
